@@ -1,0 +1,10 @@
+{
+  "name": "avans-project-cswp-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/avans-project-cswp-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["avans-project-cswp"],
+  "// targets": "to see all targets run: nx show project avans-project-cswp-e2e --web",
+  "targets": {}
+}
