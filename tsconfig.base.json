@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@project-cswp/backend/dto": ["libs/backend/dto/src/index.ts"],
+      "@project-cswp/backend/features": ["libs/backend/features/src/index.ts"],
+      "@project-cswp/common": ["libs/frontend/common/src/index.ts"],
+      "@project-cswp/features": ["libs/frontend/features/src/index.ts"],
+      "@project-cswp/shared/api": ["libs/shared/api/src/index.ts"],
+      "@project-cswp/ui": ["libs/frontend/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
